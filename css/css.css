@@ -20,6 +20,7 @@
 
 .saludo:hover{
     color:green;
+    cursor:pointer;
 }
 
 .menu{
@@ -32,7 +33,7 @@
 }
 
 .menu-nav{
-    border: 3px solid brown;
+    /*border: 3px solid brown;*/
     list-style:none;
 }
 
@@ -75,13 +76,68 @@ main:hover{
 
 }
 
-main h2{
+h2{
+    margin:10px;
     text-align: center  ;
 }
 
-main p{
+p{
     padding:5px;
     text-align:justify;    
 }
 
 
+/*Tipo de elemento y botones 16 06 2022*/
+.Telemento{
+    margin:20px;
+
+}
+
+
+.btn{
+    padding:15px;
+    margin:12px;
+    font-family: sans-serif;
+    font-size: 14px;
+    background:darkmagenta;
+    font-weight: bold;
+    color:white;
+    border-radius: 5px;
+    border-style:none;
+}
+
+.btn:hover{
+    opacity:0.7;
+    cursor: pointer;
+    /*text-decoration: underline;*/
+    font-size: 18px;
+
+}
+
+.small{
+    padding: 12px;
+    font-size:12px;
+}
+
+.medium{
+    padding:15px;
+    font-size:16px;
+
+}
+
+.big{
+    padding:18px;
+    font-size:18px;
+}
+
+.green{
+    background-color:limegreen;
+}
+
+.blue{
+    background-color:mediumblue;
+}
+
+.orange{
+    background-color:coral;
+}
